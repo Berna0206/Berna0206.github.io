@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assistente Jurídico Automatizado</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Assistente Jurídico Automatizado</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#introducao">Introdução</a></li>
+            <li><a href="#funcionalidades">Funcionalidades</a></li>
+            <li><a href="#contato" role="button">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <div class="grid">
+            <section id="introducao">
+                <hgroup>
+                    <h2>Bem-vindo ao Assistente Jurídico Automatizado</h2>
+                    <h3>O futuro da advocacia, hoje.</h3>
+                </hgroup>
+                <p>Nosso aplicativo utiliza inteligência artificial para auxiliar advogados na criação de peças jurídicas, seleção de artigos da lei, jurisprudência relevante e análise de taxas de sucesso em diferentes tribunais.</p>
+                <figure>
+                    <img src="image-link-introduction" alt="Advogado em escritório moderno">
+                    <figcaption><a href="#" target="_blank">Imagem de introdução</a></figcaption>
+                </figure>
+            </section>
+
+            <section id="funcionalidades">
+                <hgroup>
+                    <h2>Funcionalidades</h2>
+                    <h3>Descubra como nosso aplicativo pode transformar seu trabalho</h3>
+                </hgroup>
+                <p>Nosso aplicativo oferece uma gama de funcionalidades para facilitar e automatizar o trabalho jurídico.</p>
+                <h3>Criação Automática de Peças</h3>
+                <p>Crie documentos jurídicos automaticamente, economizando tempo e aumentando a precisão.</p>
+                <figure>
+                    <img src="image-link-document-creation" alt="Interface de criação de documentos">
+                    <figcaption><a href="#" target="_blank">Criação de Peças</a></figcaption>
+                </figure>
+                <h3>Seleção de Artigos da Lei</h3>
+                <p>Selecione facilmente os artigos relevantes da lei para fundamentar seus casos.</p>
+                <figure>
+                    <img src="image-link-law-articles-selection" alt="Interface de seleção de artigos da lei">
+                    <figcaption><a href="#" target="_blank">Seleção de Artigos</a></figcaption>
+                </figure>
+                <h3>Seleção de Jurisprudência</h3>
+                <p>Encontre e selecione a jurisprudência mais adequada para cada caso específico.</p>
+                <figure>
+                    <img src="image-link-jurisprudence-selection" alt="Interface de seleção de jurisprudência">
+                    <figcaption><a href="#" target="_blank">Seleção de Jurisprudência</a></figcaption>
+                </figure>
+                <h3>Análise de Taxas de Sucesso</h3>
+                <p>Verifique as taxas de sucesso de casos semelhantes em diferentes tribunais, ajudando a tomar decisões informadas.</p>
+                <figure>
+                    <img src="image-link-success-rates-analysis" alt="Gráficos de análise de taxas de sucesso">
+                    <figcaption><a href="#" target="_blank">Análise de Taxas de Sucesso</a></figcaption>
+                </figure>
+            </section>
+        </div>
+    </main>
+
+    <section aria-label="Exemplo de Assinatura">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Fique Atualizado</h2>
+                    <h3>Inscreva-se para receber novidades e atualizações sobre nosso aplicativo</h3>
+                </hgroup>
+                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeVnX0kaRC9dLJPQKGMhKygO4dUfqkVUCUFOYtlZJUrw_GT1A/viewform?usp=pp_url" target="_blank">Clique aqui para se inscrever</a></p>
+            </article>
+        </div>
+    </section>
+
+    <footer class="container">
+        <small><a href="https://seusite.com/politica-de-privacidade" target="_blank">Política de Privacidade</a> • <a href="https://seusite.com/termos-de-uso" target="_blank">Termos de Uso</a></small>
+    </footer>
+</body>
+</html>
