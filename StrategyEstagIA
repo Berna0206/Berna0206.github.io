@@ -1,85 +1,111 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Assistente Jurídico Automatizado</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>strategyestagIA</title>
 </head>
 <body>
-    <nav class="container-fluid">
-        <ul>
-            <li><strong>Assistente Jurídico Automatizado</strong></li>
-        </ul>
-        <ul>
-            <li><a href="#introducao">Introdução</a></li>
-            <li><a href="#funcionalidades">Funcionalidades</a></li>
-            <li><a href="#contato" role="button">Contato</a></li>
-        </ul>
-    </nav>
-
-    <main class="container">
-        <div class="grid">
-            <section id="introducao">
-                <hgroup>
-                    <h2>Bem-vindo ao Assistente Jurídico Automatizado</h2>
-                    <h3>O futuro da advocacia, hoje.</h3>
-                </hgroup>
-                <p>Nosso aplicativo utiliza inteligência artificial para auxiliar advogados na criação de peças jurídicas, seleção de artigos da lei, jurisprudência relevante e análise de taxas de sucesso em diferentes tribunais.</p>
-                <figure>
-                    <img src="image-link-introduction" alt="Advogado em escritório moderno">
-                    <figcaption><a href="#" target="_blank">Imagem de introdução</a></figcaption>
-                </figure>
-            </section>
-
-            <section id="funcionalidades">
-                <hgroup>
-                    <h2>Funcionalidades</h2>
-                    <h3>Descubra como nosso aplicativo pode transformar seu trabalho</h3>
-                </hgroup>
-                <p>Nosso aplicativo oferece uma gama de funcionalidades para facilitar e automatizar o trabalho jurídico.</p>
-                <h3>Criação Automática de Peças</h3>
-                <p>Crie documentos jurídicos automaticamente, economizando tempo e aumentando a precisão.</p>
-                <figure>
-                    <img src="image-link-document-creation" alt="Interface de criação de documentos">
-                    <figcaption><a href="#" target="_blank">Criação de Peças</a></figcaption>
-                </figure>
-                <h3>Seleção de Artigos da Lei</h3>
-                <p>Selecione facilmente os artigos relevantes da lei para fundamentar seus casos.</p>
-                <figure>
-                    <img src="image-link-law-articles-selection" alt="Interface de seleção de artigos da lei">
-                    <figcaption><a href="#" target="_blank">Seleção de Artigos</a></figcaption>
-                </figure>
-                <h3>Seleção de Jurisprudência</h3>
-                <p>Encontre e selecione a jurisprudência mais adequada para cada caso específico.</p>
-                <figure>
-                    <img src="image-link-jurisprudence-selection" alt="Interface de seleção de jurisprudência">
-                    <figcaption><a href="#" target="_blank">Seleção de Jurisprudência</a></figcaption>
-                </figure>
-                <h3>Análise de Taxas de Sucesso</h3>
-                <p>Verifique as taxas de sucesso de casos semelhantes em diferentes tribunais, ajudando a tomar decisões informadas.</p>
-                <figure>
-                    <img src="image-link-success-rates-analysis" alt="Gráficos de análise de taxas de sucesso">
-                    <figcaption><a href="#" target="_blank">Análise de Taxas de Sucesso</a></figcaption>
-                </figure>
-            </section>
+    <header>
+        <h1>Strategy EstagIA</h1>
+        <div class="menu-container">
+            <button class="menu-btn" id="menu-btn">&#9776;</button>
+            <div class="menu-links" id="menu-links">
+                <a href="/Inicial.html">Página inicial</a>
+                <a href="/sobre.html">O que é o Strategy EstagIA?</a>
+                <a href="/como-funciona.html">Como funciona</a>
+                <a href="/diferenciais.html">Diferenciais competitivos</a>
+                <a href="/planos.html">Planos</a>
+                <a href="/depoimentos.html">Depoimentos e Estudos de Caso</a>
+                <a href="/suporte.html">Recursos e Suporte</a>
+                <a href="/noticias.html">Notícias e Atualizações</a>
+                <a href="/contato.html">Contato</a>
+                <a href="/demo.html">Demonstração gratuita</a>
+                <a href="/login.html">Área do Cliente</a>
+            </div>
         </div>
+    </header>
+    <main>
+        <section class="pesquisar-container">
+            <div class="pesquisar-container"></div>
+            <input type="text" placeholder="Qual sua demanda para hoje?">
+            <button class="botão-pesquisar">Pesquisar</button>
+        </section>
+        <section class="subtitle">
+            <div class="subtitle"></div>
+            <h2>Revolucione a Prática Jurídica com a Inteligência Artificial Personalizada</h2>
+            <p class="descricao-meta">Transforme cada peça processual em uma obra-prima jurídica, adaptada ao seu estilo, com o poder do Strategy EstagIA</p>
+        </section>
+        <!-- Nova Seção: Benefícios em Destaque -->
+        <section class="beneficios-container">
+            <button class="arrow-left" onclick="prevBenefit()">&#9664;</button> <!-- Seta Esquerda -->
+            <div class="beneficios-wrapper">
+                <div class="beneficio active">
+                    <img src="icon-produtividade.png" alt="Produtividade">
+                    <div class="beneficio-footer">
+                        <h3>Aumento de Produtividade</h3>
+                        <p>Produza mais peças processuais em menos tempo.</p>
+                    </div>
+                </div>
+                <div class="beneficio">
+                    <img src="icon-precisao.png" alt="Precisão Jurídica">
+                    <div class="beneficio-footer">
+                        <h3>Precisão Jurídica</h3>
+                        <p>Pesquisa avançada de jurisprudência e doutrina personalizada.</p>
+                    </div>
+                </div>
+                <div class="beneficio">
+                    <img src="estilo.jpg" alt="Adaptação ao Estilo">
+                    <div class="beneficio-footer">
+                        <h3>Adaptação ao Estilo</h3>
+                        <p>A IA escreve no estilo do seu time.</p>
+                    </div>
+                </div>
+                <div class="beneficio">
+                    <img src="icon-analise.png" alt="Análise de Sucesso">
+                    <div class="beneficio-footer">
+                        <h3>Análise de Sucesso</h3>
+                        <p>Maximização das chances de vitória em seus processos.</p>
+                    </div>
+                </div>
+            <button class="arrow-right" onclick="nextBenefit()">&#9654;</button> <!-- Seta Direita -->
+        </section>        
+        <section>
+            <button>Experimente Gratuitamente</button>
+        </section>
+        <section class="prova-social">
+            <h2>Veja como o Strategy EstagIA vêm transformando a forma de trabalho dos escritórios de advocacia em todo o país</h2>
+            <div class="clientes-grid">
+                <div class="cliente-item">
+                    <img src="logo-escritorio1.png" alt="Escritório 1">
+                    <p>"O Strategy EstagIA melhorou nossa eficiência em 50%." – Escritório X</p>
+                </div>
+                <div class="cliente-item">
+                    <img src="logo-escritorio2.png" alt="Escritório 2">
+                    <p>"Revolucionamos nossa abordagem com a ajuda da IA." – Escritório Y</p>
+                </div>
+                <!-- Adicione mais logos e depoimentos conforme necessário -->
+            </div>
+            <a href="#experimente" class="btn-cta">Faça seu teste já</a>
+        </section>        
     </main>
-
-    <section aria-label="Exemplo de Assinatura">
-        <div class="container">
-            <article>
-                <hgroup>
-                    <h2>Fique Atualizado</h2>
-                    <h3>Inscreva-se para receber novidades e atualizações sobre nosso aplicativo</h3>
-                </hgroup>
-                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeVnX0kaRC9dLJPQKGMhKygO4dUfqkVUCUFOYtlZJUrw_GT1A/viewform?usp=pp_url" target="_blank">Clique aqui para se inscrever</a></p>
-            </article>
+    <footer>
+        <p>Este é um produto de inteligência artificial e não substitui o aconselhamento jurídico.</p>
+        <p>&copy; 2024 Strategy EstagIA. Todos os direitos reservados.</p>
+        <p>Entre em contato através do email: "emaildamarca@gmail.com"</p>
+        <nav>
+            <ul>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
         </div>
-    </section>
-
-    <footer class="container">
-        <small><a href="https://seusite.com/politica-de-privacidade" target="_blank">Política de Privacidade</a> • <a href="https://seusite.com/termos-de-uso" target="_blank">Termos de Uso</a></small>
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>
